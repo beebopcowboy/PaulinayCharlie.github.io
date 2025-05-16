@@ -179,7 +179,7 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: inherit;
-    padding: 3em 0;
+   
   }
 }
 
@@ -1464,36 +1464,36 @@ figure {
 
 /* Estilos para la imagen decorativa que va debajo (PNG subrayado) */
 .img-underline {
-  width: 80%;           /* Aumenta el ancho al 80% del contenedor */
-  max-width: 400px;     /* Permite que se alargue más, hasta 400px */
-  height: auto;         /* Mantiene proporciones naturales */
-  display: block;       /* Se comporta como bloque */
-  margin: 0 auto -40px; /* Centrada horizontalmente y con margen negativo para subirla */
+  width: 80%;           
+  max-width: 400px;  
+  height: auto;         
+  display: block;       
+  margin: 0 auto -40px; 
 }
 
 /* Estilos para el ícono de anillo (último PNG más pequeño) */
 .img-icono {
-  width: 100px; /* Tamaño fijo en ancho */
-  height: auto; /* Proporcional al ancho */
-  display: inline-block; /* Permite colocarse en línea si hay más elementos */
-  margin-top: 20px; /* Separación superior del texto o imagen anterior */
+  width: 100px; 
+  height: auto; 
+  display: inline-block; 
+  margin-top: 20px; 
 }
 
 /* Contenedor general para centrar y dar padding al bloque */
 .contenedor-imagenes {
-  text-align: center; /* Centra todo el contenido interno */
-  padding: 20px; /* Espacio interno alrededor del contenido */
+  text-align: center; 
+  padding: 20px; 
 }
 .fh5co-cover {
-  background-size: cover;         /* Escala la imagen para cubrir todo el contenedor */
-  background-position: center;    /* Centra la imagen */
-  background-repeat: no-repeat;   /* No repite la imagen */
+  background-size: cover;         
+  background-position: cover;    
+  background-repeat: no-repeat;   
 }
 .footer-underline-container {
   position: relative;
-  height: 10vw; /* altura proporcional al ancho de la ventana */
-  max-height: 120px; /* para no hacerse muy grande en pantallas grandes */
-  min-height: 60px;  /* para que no sea muy pequeño en pantallas chicas */
+  height: 10vw; 
+  max-height: 120px; 
+  min-height: 60px;  
   text-align: center;
 }
 
@@ -1562,21 +1562,21 @@ figure {
   text-decoration: underline;
 }
 #galeria-underline {
-  width: 50%;             /* Ajusta el tamaño: 20%, 25%, 30%, según prefieras */
-  max-width: 300px;       /* Tamaño máximo en pantallas grandes */
-  min-width: 100px;       /* Tamaño mínimo en móviles */
-  height: auto;           /* Mantiene la proporción original de la imagen */
+  width: 50%;             
+  max-width: 300px;     
+  min-width: 100px;       
+  height: auto;           
   display: block;
-  margin: 5px auto 0;    /* Centrado horizontal con un poco de espacio arriba */
+  margin: 5px auto 0;    
   position: relative;
-  z-index: 1;             /* Asegura que esté por encima de otros elementos si es necesario */
+  z-index: 1;             
 }
 
 /* Para que sea más adaptable en móviles */
 @media screen and (max-width: 768px) {
   #galeria-underline {
     width: 40%;
-    margin: 10px auto 0; /* Siempre centrada en móviles */
+    margin: 10px auto 0;
   }
 }
 /*diseño de header*/
@@ -1623,7 +1623,9 @@ figure {
   height: 2px;
   background-color: rgb(255, 0, 242);
 }
-
-
-
+.cover-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
 

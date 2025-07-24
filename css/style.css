@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes', cursive;
+    color: #a11b8b;
+}
+.navbar, .fh5co-nav {
+    font-family: 'Poppins', sans-serif;
+}
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -688,8 +702,6 @@ figure {
 
 #fh5co-started {
   position: relative;
-  background-size: cover;
- 
   background-repeat: no-repeat;
 }
 
@@ -1457,7 +1469,7 @@ figure {
 .foto-principal {
   width: 100%;
   height: auto;
-  border-radius: 900px;
+  border-radius: 100px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   margin-bottom: -90px;
 }
@@ -1629,3 +1641,32 @@ figure {
   height: 100%;
 }
 
+.invitacion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 800px; /* Ajusta el ancho máximo */
+  padding: 0 15px;
+}
+
+.invitacion-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Opcional */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Opcional para elegancia */
+}
+
+.dress-code-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.dress-code-container img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
